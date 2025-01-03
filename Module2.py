@@ -50,7 +50,7 @@
 
 
 # Learning Rate: 
-# i. How frequently your data is trained. 
+# i. How frequently your model is getting trained with newer data. 
 # ii. If not a correct learning rate provided then there are the chances model might get trained with new data faster and forget about the old datasets.
 
 
