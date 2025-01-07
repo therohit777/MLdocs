@@ -5,29 +5,22 @@
 #              mathematical problem. 
 #             (Reduce Churn Rate.)
 
-# 2. Types of problem: Predict customer who are going 
-#                      to leave platform.
+# 2. Types of Solutions feasible for a  problem: Predict customer who are going 
+#                                                to leave platform.
 
 # 3. Current available solutions: Factors to caclute 
 #                                 Churn Rate.                     
 
-# 4. Getting Data: watch time, search but did not find, 
+# 4. Understanding and Getting Data: watch time, search but did not find, 
 #                  content left in middle,etc.
 #                  Data will be provided by 
 #                  data Engineering team.
 
-# 5. Metrics to measure: metrics to be defined that 
-#                        what thing has been 
-#                        predicted by our model 
-#                        is corect or not. Like the
-#                        % of people we thought will 
-#                        leave netflix platform 
-#                        was close or not, etc.
 
-# 6. Online or Batch Training: Model consideration.
+# 5. Online or Batch Training: Model consideration.
 #                             (Online for Netflix)
 
-# 7. Check Assumptions: i. Features decided like watch time,
+# 6. Check Assumptions: i. Features decided like watch time,
 #                          search but did not find, etc are 
 #                          like present or not.
 # 
