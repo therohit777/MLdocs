@@ -48,11 +48,12 @@
 #   1. CSV: (Comma Separated Values.)
 #      TSV: (Tab Separated Values.)
 
-#   Panda:
+#   PANDAS LIBRARIES:
 #   1. Loading CSV from local Machine/URL:
 #        Example: 
 #          import panda as pd
 #          df = pd.read_csv('filename.csv') // file path or URL path
+#          df = pd.read_json('file.json') // working with JSON  
 #          print(df) // prints all datas in their column format.
  
 
@@ -144,3 +145,31 @@
 #           (5000,10)
 #           (5000,10)
 #           (5000,10)
+
+
+#  15. Loading datasets from MySQL.
+#          Helps in loading SQL files by bassing sql connector object and sql_query. 
+#          Example:
+#            import mysql.connector
+#            conn = mysql.connector.connect(host='localhost',user='root',password='',database='world')
+#            pd.read_sql_query('SELECT * FROM NAME WHERE MARKS=30',conn) // conn is a mysql connection object is of mysql.
+
+# 16. Creating a DataFrame via API using Pandas:
+#        Example:
+#          import pandas as pd
+#          import requests
+
+#          response = requests.get('WebsiteURL') // from where we gonna get data
+#          df = pd.DataFrame(response.json()['results'])
+
+# 17. Converting a Dataframe to CSV file.
+#        Example:
+#             df.to_csv('csvFileName')
+ 
+
+
+
+
+
+# Note: API (Application Programming Interface) are nothing 
+#       data pipeline which helps to communicate a information from point A to point B.
